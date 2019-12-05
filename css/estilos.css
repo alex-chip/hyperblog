@@ -1,3 +1,7 @@
+html {
+  box-sizing: border-box;
+}
+
 body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -6,8 +10,14 @@ body {
   flex-wrap: wrap;
   min-height: 100vh;
   margin: 0;
+  box-sizing: inherit;
 }
 
 .container {
+  border: 1px solid steelblue;
   margin: auto;
+  min-width: 500px;
+  max-width: 80%;
+  padding: 1em;
+  border-radius: 5px;
 }
