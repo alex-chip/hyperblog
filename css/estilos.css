@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  color: steelblue;
+  color: blue;
   display: flex;
   flex-wrap: wrap;
   min-height: 100vh;
